@@ -13,6 +13,7 @@ notifier = Slack::Notifier.new "WEBHOOK_URL"
 notifier.ping "Hello World"
 # => if your webhook is setup, will message "Hello World"
 # => to the default channel you set in slack
+# => hound ci test
 ```
 
 
@@ -71,7 +72,7 @@ notifier.ping message
 #ends up posting "@channel hey check this out" in your Slack channel
 ```
 
-You can see [Slack's message documentation here](https://api.slack.com/docs/formatting) 
+You can see [Slack's message documentation here](https://api.slack.com/docs/formatting)
 
 ## Escaping
 
